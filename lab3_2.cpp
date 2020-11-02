@@ -9,7 +9,10 @@ int main()
 {
 	setlocale(LC_ALL, "russian");
     int n, m, max;
-	std::cin >> n >> m;
+	std::cout << "Введите n" << std::endl;
+	std::cin >> n;
+	std::cout << "Введите m" << std::endl;
+	std::cin >> m;
 	int **matrix;
 	matrix = new int* [n];
 	for (int i = 0; i < n; i++)
@@ -61,3 +64,4 @@ int main()
 	system("pause");
 	return 0;
 }
+
